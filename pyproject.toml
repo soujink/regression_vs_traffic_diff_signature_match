@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "soujink-deploy_jd423"
+name = "soujink-regression_vs_traffic_diff_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别模型部署工程师·回归集与线上样本的差分的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://soujink.github.io"
-Repository = "https://github.com/soujink/deploy_jd423"
-Issues = "https://github.com/soujink/deploy_jd423/issues"
+Repository = "https://github.com/soujink/regression_vs_traffic_diff_signature_match"
+Issues = "https://github.com/soujink/regression_vs_traffic_diff_signature_match/issues"
 
 [project.scripts]
-deploy_jd423 = "deploy_jd423:main"
+regression_vs_traffic_diff_signature_match = "regression_vs_traffic_diff_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["deploy_jd423"]
+py-modules = ["regression_vs_traffic_diff_signature_match"]
